@@ -24,3 +24,5 @@ new word
 new line myfriend
 
 slayer 777
+
+new line added
