@@ -57,3 +57,7 @@ git status --short M
 ```sh
 git log --oneline #forma corta
 git log # forma larga detallada 2
+
+git remote add origin "https://github.com/JorgeSignusQA/GITElements.git"
+
+git remote added the elements
