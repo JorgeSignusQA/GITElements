@@ -16,6 +16,20 @@ git config --global alias.s "status --short" # gits | git
 
 ````
 
+### Eliminar un alias
+
+```sh
+git config --global --unset alias.<nombre-alias>
+git config --global --unset alias.s
+```
+
+## Ver specificamentelos alieas que tengo
+
+```sh
+git config --global --get-repexp alias
+```
+
+
 ### Distintos ambitos en GIT(scopes)
 
 1.- --system alto -> a todo el sostema operativo usuarios y repo
@@ -28,3 +42,5 @@ git config --<scope>
 git config --system
 git config --global
 git config --local
+```
+
